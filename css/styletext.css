@@ -1,0 +1,220 @@
+
+
+a:hover {
+    color: red;
+
+}
+
+a {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'tradegothiclt', sans-serif;
+    color: white;
+
+}
+
+
+video {
+     position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+
+.image1 {
+    width: 100%;
+}
+
+.navbar-header a {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'tradegothiclt', sans-serif;
+    color: white;
+
+}
+
+.profile-pic{
+    height: 50px;
+}
+
+
+
+.intrologo
+{
+    width: 300px;
+   
+    -webkit-transition: all .6s ease-in; /* element qui subit la transition, temps de la transition et function de la transition*/
+    -moz-transition: all .6s ease-in;
+    -o-transition: all .6s ease-in;
+    transition: all .6s ease-in;
+}
+.intrologo:hover
+{
+    -webkit-transform: scale(1.2); /*multiplication de la taille de départ x 4*/
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transform-origin: center center; /*origine de l'animation*/
+    -moz-transform-origin: center center;
+    -o-transform-origin: center center;
+    transform-origin: center center;
+}
+
+.center {
+    text-align:center;
+     position:absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -75px; /* Cette valeur doit être la moitié négative de la valeur du width */
+    margin-top: -100px;
+
+}
+
+.title {
+    font-weight: bold;
+    font-family: 'tradegothiclt', sans-serif;
+    color: black;
+    text-decoration: underline;
+}
+
+.textcenter {
+    font-size: 20px; 
+    font-family: 'tradegothiclt', sans-serif; 
+    color: black;
+    text-align: justify;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.navbar-fixed-top.scrolled {
+  background-color: black !important;
+  transition: background-color 200ms linear;
+}
+
+
+div.image20 {
+     position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    background-image: url("../img/gardiens2.png");
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+ 
+  background-position: center center;
+}
+
+#middle {
+    padding-top: 250px;
+}
+
+
+.title1 {
+    font-weight: bold;
+    font-family: 'tradegothiclt', sans-serif;
+    color: white;
+    text-decoration: underline;
+}
+.contour {
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}
+
+
+.backcolor {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.intrologo2
+{
+    width: 600px;
+   
+    -webkit-transition: all .6s ease-in; /* element qui subit la transition, temps de la transition et function de la transition*/
+    -moz-transition: all .6s ease-in;
+    -o-transition: all .6s ease-in;
+    transition: all .6s ease-in;
+}
+.intrologo2:hover
+{
+    -webkit-transform: scale(1.2); /*multiplication de la taille de départ x 4*/
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transform-origin: center center; /*origine de l'animation*/
+    -moz-transform-origin: center center;
+    -o-transform-origin: center center;
+    transform-origin: center center;
+}
+
+
+
+.resize {
+    width: 100%
+}
+
+
+
+.scaledImageContainer {
+    position: relative;
+    overflow: hidden;
+    width: 500px;
+    
+}
+
+@media (min-width: 992px){
+.col-md-3.salut {
+    width: 30%;
+}
+}
+
+
+@media (min-width: 992px){
+.col-md-9.salut {
+    width: 60%;
+}
+}
+
+
+div.image10 {
+     position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    background-image: url("../img/re.jpg");
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+ 
+  background-position: center center;
+}
+
+#middle2 {
+    padding-top: 350px;
+}
